@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="tabs">
+        <h1 class="heading">SELECT YOUR CHOISE</h1>
+        <button class="tab" onclick="showProducts('Men')">Men</button>
+        <button class="tab" onclick="showProducts('Women')"><i class="fa fa-user padding"></i>Women</button>
+        <button class="tab" onclick="showProducts('Kids')">Kids</button>
+    </div>
+
+    <div id="MenProducts" class="products"></div>
+    <div id="WomenProducts" class="products" style="display: none;"></div>
+    <div id="KidsProducts" class="products" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
